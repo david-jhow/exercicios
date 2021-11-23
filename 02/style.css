@@ -1,0 +1,27 @@
+
+body{
+    background-image: url(imagens/mesa.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+main{
+    color: rgba(255, 250, 240, 0.747);
+    background-color: rgba(9, 14, 85, 0.534);
+    width: 200px;
+    height: 280px;
+    border-radius: 7%;
+    padding: 15px;
+    position: relative;
+    top: 90px;
+    margin: auto;
+    cursor: pointer;
+}
+main >h1{
+    font-size:55px;
+}
+footer{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.842);
+    top: 500px ;
+}
